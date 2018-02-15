@@ -91,16 +91,22 @@
     * Solidaire: Prêt de 100k sur deux personnes, si personne 1 fait faillite, personne 2 doit payer le 100k a elle seule. (Comme un bail)
 
 * Expliquer c'est quoi un dol:
-    * Oui bonjour
+    * Un dol, en droit français des contrats, est une manœuvre d'un cocontractant dans le but de tromper son partenaire et provoquer chez lui une erreur.
 
 * Expliquer c'est quoi une mise en demeure:
     * Écrit
     * Preuve de réception
-    * etc...
+    * Contexte
+    * Pour faire respecter une obligation
+    * Faits importants
+    * Demande
+    * Possibilite de reponse
+    * Delai
+    * Alternative autre qu'aller en cours
+    * Consequence si non reponse
 
 * Expliquer c'est quoi la résolution d'un contrat:
+    * Annulation d'un contrat comme s'il n'avait jamais existe. Remise a l'etat d'avant le contrat
 
 * C'est quoi le bénifice du terme?
-    * Intérêts sur paiements
-    * Payer plus tard
-    * etc...
+    * Tant que le débiteur respecte ses engagements quant aux versements, qu’il maintien les sûretés données au créancier et qu’il reste solvable, le créancier ne peut lui requérir plein paiement avant la survenance du terme.
