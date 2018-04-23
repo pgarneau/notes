@@ -43,13 +43,13 @@ TX = Transmit
 
 * [Asynchronous](#asynchronous)
 * [Full-Duplex](#full-duplex)
-* Data Frame:
+* Data Frame: (LSB FIRST)
     * Idle at 1
     * Start bit (0)
     * Data bits (5-9)
     * Parity (Optional)
     * Stop bit (1)
-* Slow communication
+* Slow communication (Only one that uses baud rate)
 
 ### SPI
 * Physical Config:  
@@ -59,10 +59,13 @@ MOSI = Master Output Slave Input
 MISO = Master Input Slave Output  
 SS = Chip Select
 
+* Fastest
 * [Synchronous](#synchronous)
 * [Full-Duplex](#full-duplex)
 * Configuration:  
 ![Configuration](images/spi_config.png)
+* Frame Example:
+![Frame Example](images/spi_frame.png)
 
 ### I2C
 * Physical Config:  
@@ -72,12 +75,18 @@ SDA = Data
 
 * [Synchronous](#synchronous)
 * [Half-Duplex](#half-duplex)
+* Frame Example:
+    * In order for I2C to read/write to a register, it must always send a write command to the targeted slave first
+    * SCL and SDA are idle at high
+![Frame Example](images/i2c_frame.png)
 * Start bit, device address, acknowledge, stop bit, etc
 
 ### CAN
 * Network protocol used in vehicles
 * Voltage differential between two cables determines bit value
 * [Bit Stuffing](#bit-stuffing)
+* Contains an ID at the start of frame
+* Can travel long distances
 
 ## Definitions
 ### Full-Duplex
